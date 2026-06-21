@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushboo & Abhishek — Celebration Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Bodoni Moda', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors {
+                        gold: {
+                            50: '#FDFBF7',
+                            100: '#FAF5EC',
+                            200: '#EFE3CE',
+                            300: '#DECBAB',
+                            400: '#C9AF83',
+                            500: '#A88B59',
+                            600: '#876D43',
+                            700: '#665131',
+                        },
+                        luxury: {
+                            bg: '#FAF9F5',
+                            dark: '#161615',
+                            muted: '#666562',
+                            border: '#E6E4DD'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-feature-settings: "lnum"; }
+        .bento-card {
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+    </style>
+</head>
+<body class="bg-luxury-bg text-luxury-dark font-sans antialiased selection:bg-gold-500 selection:text-white">
+
+    <nav class="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-md bg-white/80 backdrop-blur-md border border-luxury-border rounded-full px-6 py-3.5 shadow-xl flex justify-around text-[10px] uppercase tracking-[0.2em] font-semibold">
+        <a href="#home" class="hover:text-gold-500 transition-colors">Home</a>
+        <a href="#lineage" class="hover:text-gold-500 transition-colors">Families</a>
+        <a href="#itinerary" class="hover:text-gold-500 transition-colors">Events</a>
+        <a href="#venue" class="hover:text-gold-500 transition-colors">Venue</a>
+        <a href="#rsvp" class="text-gold-600 font-bold tracking-[0.25em]">RSVP</a>
+    </nav>
+
+    <section id="home" class="min-h-screen flex flex-col justify-between items-center px-6 pt-20 pb-16 text-center relative border-b border-luxury-border">
+        <div class="space-y-2 mt-4">
+            <p class="font-serif italic text-base tracking-widest text-gold-600">॥ श्री गणेशाय नमः ॥</p>
+            <div class="text-[10px] text-luxury-muted space-y-0.5 tracking-wider">
+                <p>मंगलम् भगवान विष्णुः मंगलम् पुण्डरीकाक्षः ।</p>
+                <p>मंगलम् गरुड़ध्वजः मंगलाय तनोऽहरिः ॥</p>
+            </div>
+            <div class="h-[1px] w-16 bg-gold-300 mx-auto my-3"></div>
+            <p class="text-[11px] uppercase tracking-[0.25em] text-gold-700 font-semibold">श्री राणीसत्ती दादी की असीम कृपा से</p>
+        </div>
+
+        <div class="max-w-2xl my-auto space-y-6">
+            <span class="text-[10px] uppercase tracking-[0.35em] font-bold text-luxury-muted block">Shubh Vivah Invitation</span>
+            <h1 class="font-serif text-5xl sm:text-6xl md:text-7xl font-light tracking-tight uppercase leading-none">
+                Khushboo <br>
+                <span class="font-serif italic lowercase text-3xl sm:text-4xl text-gold-500 block my-4">&</span> 
+                Abhishek
+            </h1>
+            <div class="w-12 h-[1px] bg-gold-400 mx-auto"></div>
+            <p class="font-serif text-2xl tracking-wide text-gold-700">June 30 – July 01, 2026</p>
+            <p class="text-[11px] uppercase tracking-[0.2em] text-luxury-muted font-medium">New Delhi, India</p>
+        </div>
+
+        <div class="text-[10px] uppercase tracking-[0.3em] text-gold-600 font-bold animate-pulse">
+            <a href="#lineage">Explore Invitation ↓</a>
+        </div>
+    </section>
+
+
+    <section id="lineage" class="py-24 max-w-6xl mx-auto px-6 border-b border-luxury-border">
+        <div class="text-center mb-16 space-y-2">
+            <span class="text-[10px] uppercase tracking-[0.3em] font-bold text-gold-600 block">The Families</span>
+            <h2 class="font-serif text-3xl uppercase tracking-wide">परम पूज्य परिवार</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-24 relative">
+            
+            <div class="space-y-8 md:text-right flex flex-col justify-between">
+                <div class="space-y-4">
+                    <span class="text-xs uppercase tracking-[0.25em] font-bold text-gold-600 block">— चुनड़ी पक्ष</span>
+                    <h3 class="font-serif text-4xl font-light uppercase tracking-wide text-luxury-dark">आयुष्मती खुशबू</h3>
+                    
+                    <div class="space-y-2 text-sm text-luxury-muted">
+                        <p class="font-semibold text-luxury-dark text-base">सुपुत्री : श्रीमती सन्तोष श्री सन्तोष कुमार जालान</p>
+                        <p class="italic text-xs">सुपौत्री : स्वः गीता देवी स्वः मोतीलाल जालान</p>
+                    </div>
+                </div>
+
+                <div class="pt-6 border-t border-luxury-border/60 text-xs text-luxury-muted space-y-2 tracking-wide">
+                    <p class="font-medium text-luxury-dark">हिरालाल मोतीलाल जालान</p>
+                    <p>गणेश मंदिर के पास, रतनगढ़, राजस्थान</p>
+                    <p class="font-medium text-luxury-dark pt-1">सिद्धी विनायक ईन्टरप्राईज</p>
+                    <p>54, आशा भवन, दुसरा तल्ला, टोकोबाड़ी, गुवाहाटी 781008</p>
+                    <div class="text-[11px] text-gold-700 font-medium pt-1 space-y-0.5">
+                        <p>📞 9707988631 &bull; 8638121460</p>
+                        <p>9401129941</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-[1px] bg-luxury-border -translate-x-1/2"></div>
+
+            <div class="space-y-8 flex flex-col justify-between pt-12 md:pt-0 border-t border-luxury-border md:border-t-0">
+                <div class="space-y-4">
+                    <span class="text-xs uppercase tracking-[0.25em] font-bold text-gold-600 block">— सेहरा पक्ष</span>
+                    <h3 class="font-serif text-4xl font-light uppercase tracking-wide text-luxury-dark">आयुष्मान अभिषेक</h3>
+                    
+                    <div class="space-y-2 text-sm text-luxury-muted">
+                        <p class="font-semibold text-luxury-dark text-base">सुपुत्र : स्वः सुनीता देवी साहजी श्री रमेशजी सिंगल</p>
+                        <p class="italic text-xs">सुपौत्रः स्वः कलाबती देवी साहजी स्वः गोपीरामजी सिगंल</p>
+                    </div>
+                </div>
+
+                <div class="pt-6 border-t border-luxury-border/60 text-xs text-luxury-muted space-y-2 tracking-wide">
+                    <p class="font-medium text-luxury-dark">अभिषेक सिंगल एण्ड एसोसिएस</p>
+                    <p>गुवाहाटी - 781008</p>
+                    <p class="font-medium text-luxury-dark pt-1">बालाजी कोयला डिपो</p>
+                    <p>खानापाडा जेसवाल कम्पाउन्ड, गुवाहाटी - 781028</p>
+                    <p class="text-luxury-muted/90">RZ 121 SANTHOS PARK, Uttam Nagar, New Delhi-110059</p>
+                    <div class="text-[11px] text-gold-700 font-medium pt-1">
+                        <p>📞 7002880563</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-20 max-w-3xl mx-auto border border-gold-200 bg-gold-50/50 p-6 rounded-2xl">
+            <p class="font-serif italic text-lg sm:text-xl text-gold-700 leading-relaxed">
+                "शुभ परिणयोत्सव की मधुर वेला पर आपकी स्नेहिल उपस्थिति एवं स्नेहाशीष हेतु हमारा साग्रह निमन्त्रण।"
+            </p>
+        </div>
+    </section>
+
+
+    <section id="itinerary" class="py-24 bg-white border-b border-luxury-border">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16 space-y-2">
+                <span class="text-[10px] uppercase tracking-[0.3em] font-bold text-gold-600 block">The Timeline</span>
+                <h2 class="font-serif text-3xl uppercase tracking-wide">वैवाहिक कार्यक्रम</h2>
+                <p class="text-xs text-luxury-muted max-w-md mx-auto">आत्मीय स्वजन, उत्सव की विभिन्न शुभ घड़ियों की समय-सारणी इस प्रकार है:</p>
+            </div>
+
+            <div class="mb-16">
+                <div class="flex items-center space-x-4 mb-8">
+                    <span class="font-serif italic text-xl text-gold-600 font-semibold">Day 01</span>
+                    <div class="h-[1px] flex-grow bg-luxury-border"></div>
+                    <span class="text-xs uppercase tracking-[0.15em] font-bold text-luxury-muted">मंगलवार, 30 जून, 2026</span>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="bento-card bg-luxury-bg p-6 rounded-2xl border border-luxury-border flex flex-col justify-between min-h-[160px] hover:shadow-md transition-shadow">
+                        <div>
+                            <span class="text-[11px] font-bold tracking-widest text-gold-600 uppercase block mb-1">दोपहर 1:00 बजे</span>
+                            <h4 class="font-serif text-2xl font-normal tracking-wide">मेहन्दी</h4>
+                        </div>
+                        <p class="text-xs text-luxury-muted leading-relaxed mt-4">Intricate bridal henna stains, traditional folklore, and celebratory start.</p>
+                    </div>
+
+                    <div class="bento-card bg-luxury-bg p-6 rounded-2xl border border-luxury-border flex flex-col justify-between min-h-[160px] hover:shadow-md transition-shadow">
+                        <div>
+                            <span class="text-[11px] font-bold tracking-widest text-gold-600 uppercase block mb-1">दोपहर 2:00 बजे</span>
+                            <h4 class="font-serif text-2xl font-normal tracking-wide">मायरा</h4>
+                        </div>
+                        <p class="text-xs text-luxury-muted leading-relaxed mt-4">Traditional welcoming rites honoring our extended family roots and blessings.</p>
+                    </div>
+
+                    <div class="bento-card bg-luxury-bg p-6 rounded-2xl border border-luxury-border flex flex-col justify-between min-h-[160px] hover:shadow-md transition-shadow">
+                        <div>
+                            <span class="text-[11px] font-bold tracking-widest text-gold-600 uppercase block mb-1">सांय 6:00 बजे</span>
+                            <h4 class="font-serif text-2xl font-normal tracking-wide">तिलक समारोह</h4>
+                        </div>
+                        <p class="text-xs text-luxury-muted leading-relaxed mt-4">The auspicious verification marking of trust, dignity, and heritage.</p>
+                    </div>
+
+                    <div class="bento-card bg-luxury-bg p-6 rounded-2xl border border-luxury-border flex flex-col justify-between min-h-[160px] hover:shadow-md transition-shadow">
+                        <div>
+                            <span class="text-[11px] font-bold tracking-widest text-gold-600 uppercase block mb-1">सांय 8:00 बजे</span>
+                            <h4 class="font-serif text-2xl font-normal tracking-wide">संगीत संध्या</h4>
+                        </div>
+                        <p class="text-xs text-luxury-muted leading-relaxed mt-4">A night of synchronization, dance orchestrations, and family performances.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex items-center space-x-4 mb-8">
+                    <span class="font-serif italic text-xl text-gold-600 font-semibold">Day 02</span>
+                    <div class="h-[1px] flex-grow bg-luxury-border"></div>
+                    <span class="text-xs uppercase tracking-[0.15em] font-bold text-luxury-muted">बुधवार, 01 जुलाई, 2026</span>
+                </div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl">
+                    <div class="bento-card bg-luxury-bg p-6 rounded-2xl border border-luxury-border flex flex-col justify-between min-h-[180px] hover:shadow-md transition-shadow">
+                        <div>
+                            <span class="text-[11px] font-bold tracking-widest text-gold-600 uppercase block mb-1">प्रात 11:00 बजे</span>
+                            <h4 class="font-serif text-2xl font-normal tracking-wide">तेलवान & Carnival</h4>
+                        </div>
+                        <p class="text-xs text-luxury-muted leading-relaxed mt-4">Joyous daytime interactive games, custom catering stalls, and pre-nuptial oil blessings.</p>
+                    </div>
+
+                    <div class="bento-card bg-luxury-dark text-white p-6 rounded-2xl flex flex-col justify-between min-h-[180px] shadow-lg">
+                        <div>
+                            <span class="text-[11px] font-bold tracking-widest text-gold-400 uppercase block mb-1">रात्रि 9:00 बजे onwards</span>
+                            <h4 class="font-serif text-2xl font-normal tracking-wide text-gold-100">ढुकाव & परिणयोत्सव</h4>
+                        </div>
+                        <p class="text-xs text-gray-400 leading-relaxed mt-4">The main wedding assembly welcoming the Barat procession, followed by the sacred Vedic vows and Phere.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="venue" class="py-24 bg-luxury-bg">
+        <div class="max-w-3xl mx-auto px-6 text-center space-y-8">
+            <div class="space-y-2">
+                <span class="text-[10px] uppercase tracking-[0.3em] font-bold text-gold-600 block">The Destination</span>
+                <h2 class="font-serif text-3xl uppercase tracking-wide">॥ परिणय स्थल ॥</h2>
+            </div>
+            
+            <div class="bg-white border border-luxury-border p-8 sm:p-12 rounded-3xl space-y-6 shadow-sm">
+                <h3 class="font-serif text-3xl tracking-wide uppercase text-luxury-dark">Palm Green Hotel & Resort</h3>
+                <div class="w-10 h-[1px] bg-gold-300 mx-auto"></div>
+                <p class="text-sm font-medium text-luxury-muted max-w-sm mx-auto leading-relaxed">
+                    GT Karnal Road 21/30, Bakali,<br>New Delhi, 110036
+                </p>
+                
+                <div class="pt-4">
+                    <a href="https://www.google.com/maps/search/?api=1&query=Palm+Green+Hotel+Resort+Bakoli+New+Delhi" target="_blank" class="w-full sm:w-auto inline-flex justify-center items-center bg-luxury-dark text-white text-[11px] uppercase tracking-[0.25em] font-bold px-8 py-4 rounded-xl hover:bg-gold-600 transition-all duration-300 shadow-md">
+                        Open Navigation Maps ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="rsvp" class="py-24 bg-white border-t border-luxury-border">
+        <div class="max-w-md mx-auto px-6">
+            <div class="bg-luxury-bg border border-luxury-border rounded-3xl p-8 shadow-xl space-y-6">
+                <div class="text-center space-y-2">
+                    <h2 class="font-serif text-3xl uppercase tracking-wide text-luxury-dark">Digital RSVP</h2>
+                    <p class="text-[10px] uppercase tracking-widest text-gold-600 font-bold">Kindly respond by June 25, 2026</p>
+                </div>
+
+                <form id="rsvpForm" class="space-y-5">
+                    <div class="space-y-2">
+                        <label class="block text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-dark">Your Name / Family Name</label>
+                        <input type="text" id="guestName" required placeholder="e.g., Jane Doe & Family" class="w-full bg-white border border-luxury-border rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-gold-500 transition-all">
+                    </div>
+
+                    <div class="space-y-2">
+                        <label class="block text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-dark">Attendance Status</label>
+                        <div class="grid grid-cols-2 gap-3">
+                            <button type="button" id="btnAttendYes" onclick="toggleAttendance(true)" class="py-3.5 px-4 rounded-xl text-xs font-semibold uppercase tracking-wider border border-gold-500 bg-gold-500 text-white transition-all shadow-sm">
+                                Attending
+                            </button>
+                            <button type="button" id="btnAttendNo" onclick="toggleAttendance(false)" class="py-3.5 px-4 rounded-xl text-xs font-semibold uppercase tracking-wider border border-luxury-border bg-white text-luxury-muted hover:border-gold-400 transition-all">
+                                Decline
+                            </button>
+                        </div>
+                        <input type="hidden" id="attendanceStatus" name="attendance" value="Attending">
+                    </div>
+
+                    <div id="dietaryContainer" class="space-y-5 transition-all duration-500 max-h-[400px] overflow-hidden opacity-100">
+                        <div class="space-y-2">
+                            <label class="block text-[10px] uppercase tracking-[0.2em] font-bold text-luxury-dark">Cuisine Style Preference</label>
+                            <select id="cuisineStyle" class="w-full bg-white border border-luxury-border rounded-xl px-4 py-3.5 text-sm focus:outline-none focus:border-gold-500 transition-all">
+                                <option value="Pure Vegetarian">Pure Vegetarian Options</option>
+                                <option value="Traditional Marwari">Authentic Rajasthani Marwari Layout</option>
+                                <option value="Jain Food">Pure Jain Choice Selection</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="w-full bg-luxury-dark text-white text-[11px] uppercase tracking-[0.2em] font-bold py-4 rounded-xl hover:bg-gold-600 transition-all duration-300 shadow-md">
+                        Submit Confirmation
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-20 bg-luxury-dark text-white/90 px-6 text-center text-[11px] tracking-[0.18em] uppercase space-y-16">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-12 max-w-5xl mx-auto text-center border-b border-white/10 pb-16">
+            
+            <div class="space-y-3">
+                <h5 class="text-gold-400 font-serif italic text-base tracking-widest lowercase">|| स्वागतोत्सुक ||</h5>
+                <div class="text-white/60 text-xs space-y-1.5 Normalcase tracking-wide">
+                    <p>बनवारीलालजी</p>
+                    <p>ललिता चौधरी</p>
+                    <p>पियुषजी कोमल चौधरी</p>
+                    <p>हरिओम</p>
+                </div>
+            </div>
+
+            <div class="space-y-3">
+                <h5 class="text-gold-400 font-serif italic text-base tracking-widest lowercase">|| दर्शनाभिलाषी ||</h5>
+                <div class="text-white/60 text-xs space-y-1.5 tracking-wide">
+                    <p>रामोतार, शंकरलाल</p>
+                    <p>राजकुमार, दामोदर</p>
+                    <p>मनोज, पंकज</p>
+                    <p class="font-semibold text-white/90 mt-3 border-t border-white/5 pt-2">एवं समस्त जाл
